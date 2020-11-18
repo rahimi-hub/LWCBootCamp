@@ -1,0 +1,14 @@
+<template>
+    <template if:true={isJerry}>
+        <img src="https://bpng.subpng.com/dy/4e2ad78eb22e902613a94f1999cb4f7f/L0KzQYm3U8I2N5t9iZH0aYP2gLBuTfpmeqNARd94dYPoPcX2jb1kaaUyjNH2LXHxdH7xhgJzgV55h982YX7nPbvskwJ6NWZmeqkCNnXmQIeCgsQyNmQ8TKICNkK4QYa5Uck4Omo8SqI7N0GxgLBu/kisspng-jerry-mouse-tom-cat-tom-and-jerry-tom-and-jerry-5ab776ec069b41.3740762515219729720271.png" width="250" height="250" />
+        <lightning-button variant="brand" 
+        label="Show Tom" 
+        onclick={showTom} ></lightning-button>
+    </template> 
+    <template if:true={isTom}>
+        <img src="https://i.pinimg.com/originals/9f/ba/ae/9fbaaefb449e248ed975e1fde1169f8d.png" width="250" height="250" />
+        <lightning-button variant="brand" 
+        label="Show Jerry" 
+        onclick={showJerry} ></lightning-button>
+    </template>
+</template>
