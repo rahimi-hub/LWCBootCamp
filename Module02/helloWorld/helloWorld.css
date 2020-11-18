@@ -1,0 +1,18 @@
+.hello {
+    color: #25afff;
+    font-size: 25px;
+}
+
+.first {
+    color: #ec0f0f;
+    font-size: 25px;
+}
+
+.excited {
+    color: #18f504;
+    font-size: 25px;
+}
+
+ul:not(.browser-default) li {
+    list-style-type: disc;
+}
