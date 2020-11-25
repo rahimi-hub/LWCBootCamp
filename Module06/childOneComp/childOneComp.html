@@ -1,0 +1,22 @@
+<template>
+  <div class="slds-box">
+    <lightning-card title="Child One" icon-name="standard:people">
+      <template if:false={isSelect}>
+        <lightning-button
+          variant="success"
+          label="Select"
+          onclick={handleClick}
+        >
+        </lightning-button>
+      </template>
+      <template if:true={isSelect}>
+        <lightning-button
+          variant="destructive"
+          label="Deselect"
+          onclick={handleClick}
+        >
+        </lightning-button>
+      </template>
+    </lightning-card>
+  </div>
+</template>
